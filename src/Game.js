@@ -12,7 +12,7 @@ const Game = ({ handleClose }) => {
   const [rolling, setRolling] = useState(false);
 
   let slotRef = [useRef(fruit1), useRef(fruit2), useRef(fruit3)];
-  const fruits = ["🍒", "🍉", "🍊"];
+  const fruits = ["♠", "♥", "♦", "♣"];
 
   const roll = () => {
     setBal((prev) => prev - 2);

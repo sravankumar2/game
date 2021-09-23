@@ -72,6 +72,8 @@ section {
   width: 100%;
   transition: top ease-in-out 0.5s;
   text-align: center;
+  color: yellow;
+  font-size: 30px;
 }
 
 .roll {
